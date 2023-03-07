@@ -1,10 +1,14 @@
 import React from 'react'
 
-const Home = () => {
+import Notes from './Notes'
+
+const Home = (props) => {
+  const {showAlert, mode} = props
   return (
-    <div>
-      This is home
-    </div>
+      <div>
+        
+        <Notes showAlert={showAlert}  mode={mode} />
+      </div>
   )
 }
 
