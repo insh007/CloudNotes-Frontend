@@ -42,35 +42,42 @@ The following screenshots provide a visual representation of the app:
 
 
 ![CloudNotes Home Page Dark](./screenshots/homedarkmode.png "Home Page Dark Mode")
-
-
+<br>
+<br>
+<br>
 
 ![CloudNotes Home Page Light](./screenshots/homelightmode.png "Home Page Light Mode")
-
-
+<br>
+<br>
+<br>
 
 ![CloudNotes About Page Dark](./screenshots/aboutdarkmode.png "About Page Dark Mode")
-
-
+<br>
+<br>
+<br>
 
 ![CloudNotes About Page Light](./screenshots/aboutlightmode.png "About Page Light Mode")
-
-
+<br>
+<br>
+<br>
 
 ![CloudNotes Login Page Dark](./screenshots/logindarkmode.png "Login Page Dark Mode")
-
-
+<br>
+<br>
+<br>
 
 ![CloudNotes Login Page Light](./screenshots/loginlightmode.png "Login Page Light Mode")
-
-
+<br>
+<br>
+<br>
 
 ![CloudNotes SignUp Page Dark](./screenshots/signupdarkmode.png "SignUp Page Dark Mode")
-
-
+<br>
+<br>
+<br>
 
 ![CloudNotes SignUp Page Light](./screenshots/signuplightmode.png "SignUp Page Light Mode")
-
+<br>
 
 ## Credits
 This project uses several open-source libraries and tools:
