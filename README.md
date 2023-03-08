@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Project - CloudNotes Frontened
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Make sure to check :-
+## Backend Repo :  
+https://github.com/insh007/CloudNotes-Backend
 
-## Available Scripts
+## Deploy Link :
 
-In the project directory, you can run:
+## Overview
+CloudNotes is a tool that allows users to securely store their notes on the cloud, and that it provides them with the ability to manage and organize their notes in a convenient and efficient way.
+So the app eliminates the need for users to keep track of physical notebooks or sticky notes, or that it allows them to access their notes from anywhere with an internet connection.
+CloudNotes is a web app built with the MERN (MongoDB, Express, React, Node.js) stack that allows users to create, view, update, and delete notes online. The app provides a simple and intuitive interface, with a navbar that includes Home, About, Login, Sign Up, and Logout options.
+The authentication and authorization system ensures that each user can only access their own notes, or the ability to perform read, update, and delete operations on notes.
 
-### `npm start`
+## Installation and Setup
+1. Clone the repository to your local machine.
+2. Run npm install to install the dependencies.
+3. Run npm start to start the app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+1. Navigate to the Home page using the navbar if you have registerd otherwise need to registered first.
+2. Fill out the form with a title, description, and tag for your note.
+3. Click the "Create" button to save your note.
+4. Your note will be displayed in a Bootstrap card below the form.
+5. To update a note, click the "Update" icon on the card and modify the form.
+6. To delete a note, click the "Delete" icon on the card.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+1. MongoDB: a NoSQL database used for storing and retrieving data
+2. Express.js: a web application framework for Node.js
+3. React: a JavaScript library for building user interfaces
+4. Node.js: a JavaScript runtime environment for running server-side code
+5. Bootstrap: a CSS framework for building responsive web pages
 
-### `npm test`
+## About
+The About section of the app provides information about the purpose and features of CloudNotes. It includes a Bootstrap Accordion with details about the app, as well as a Login form and a Sign Up form.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Login form requires an email and password to authenticate users. The Sign Up form requires a name, email, password, and confirmation of the password. The app includes proper alerts to handle everything going on in the app.
 
-### `npm run build`
+## Screenshots
+The following screenshots provide a visual representation of the app:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![CloudNotes Home Page Dark](./screenshots/homedarkmode.png "Home Page Dark Mode")
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![CloudNotes Home Page Light](./screenshots/homelightmode.png "Home Page Light Mode")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![CloudNotes About Page Dark](./screenshots/aboutdarkmode.png "About Page Dark Mode")
 
-### `npm run eject`
+![CloudNotes About Page Light](./screenshots/aboutlightmode.png "About Page Light Mode")
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![CloudNotes Login Page Dark](./screenshots/logindarkmode.png "Login Page Dark Mode")
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![CloudNotes Login Page Light](./screenshots/loginlightmode.png "Login Page Light Mode")
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![CloudNotes SignUp Page Dark](./screenshots/signupdarkmode.png "SignUp Page Dark Mode")
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![CloudNotes SignUp Page Light](./screenshots/signuplightmode.png "SignUp Page Light Mode")
 
-## Learn More
+## Credits
+This project uses several open-source libraries and tools:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. React
+2. Node.js
+3. Express.js
+4. Bootstrap

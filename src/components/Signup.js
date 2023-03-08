@@ -29,7 +29,7 @@ const Signup = (props) => {
             body: JSON.stringify({ name:credentials.name, email: credentials.email, password: credentials.password })
         })
         const json = await response.json()
-        console.log(json)
+        // console.log(json)
         if(json.status){
             // save the auth token and redirect
             localStorage.setItem('token', json.data.password)

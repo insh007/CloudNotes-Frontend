@@ -40,7 +40,7 @@ function App() {
 
   return (
     <>
-      <NoteState>
+      <NoteState >
         <Router>
           <Navbar mode={mode} btnText={btnText} toggleMode={toggleMode} />
           <Alert alert={alert}/>
