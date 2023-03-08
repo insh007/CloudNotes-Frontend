@@ -40,42 +40,49 @@ The Login form requires an email and password to authenticate users. The Sign Up
 ## Screenshots
 The following screenshots provide a visual representation of the app:
 
-
+###### Home Page Dark Mode
 ![CloudNotes Home Page Dark](./screenshots/homedarkmode.png "Home Page Dark Mode")
 <br>
 <br>
 <br>
 
+###### Home Page Light Mode
 ![CloudNotes Home Page Light](./screenshots/homelightmode.png "Home Page Light Mode")
 <br>
 <br>
 <br>
 
+###### About Page Dark Mode
 ![CloudNotes About Page Dark](./screenshots/aboutdarkmode.png "About Page Dark Mode")
 <br>
 <br>
 <br>
 
+###### About Page Light Mode
 ![CloudNotes About Page Light](./screenshots/aboutlightmode.png "About Page Light Mode")
 <br>
 <br>
 <br>
 
+###### Login Page Dark Mode
 ![CloudNotes Login Page Dark](./screenshots/logindarkmode.png "Login Page Dark Mode")
 <br>
 <br>
 <br>
 
+###### Login Page Light Mode
 ![CloudNotes Login Page Light](./screenshots/loginlightmode.png "Login Page Light Mode")
 <br>
 <br>
 <br>
 
+###### SignUp Page Dark Mode
 ![CloudNotes SignUp Page Dark](./screenshots/signupdarkmode.png "SignUp Page Dark Mode")
 <br>
 <br>
 <br>
 
+###### SignUp Page Light Mode
 ![CloudNotes SignUp Page Light](./screenshots/signuplightmode.png "SignUp Page Light Mode")
 <br>
 
