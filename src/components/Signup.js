@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { useHistory } from 'react-router-dom'
 
 const Signup = (props) => {
-    const host = "http://localhost:3001"
+    const {host} = props
 
     const [credentials, setCredentials] = useState({name:"", email:"", password:"", cpassword:""})
     

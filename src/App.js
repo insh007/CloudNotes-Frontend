@@ -38,9 +38,11 @@ function App() {
     },2000)
   }
 
+  let host = process.env.REACT_APP_SERVER_URL
+
   return (
     <>
-      <NoteState >
+      <NoteState host={host} >
         <Router>
           <Navbar mode={mode} btnText={btnText} toggleMode={toggleMode} />
           <Alert alert={alert}/>
@@ -53,10 +55,10 @@ function App() {
                 <About mode={mode} />
               </Route>
               <Route exact path="/login">
-                <Login showAlert={showAlert} mode={mode} />
+                <Login showAlert={showAlert} mode={mode} host={host} />
               </Route>
               <Route exact path="/signup">
-                <Signup showAlert={showAlert} mode={mode} />
+                <Signup showAlert={showAlert} mode={mode} host={host} />
               </Route>
             </Switch>
           </div>
