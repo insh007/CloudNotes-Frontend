@@ -1,4 +1,4 @@
-# Project - CloudNotes Frontened
+# Project - CloudNotes Frontend
 
 ## Make sure to check Backend Repository :  
 https://github.com/insh007/CloudNotes-Backend
